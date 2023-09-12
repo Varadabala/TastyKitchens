@@ -1,0 +1,112 @@
+.restaurant-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    width: 80%;
+  }
+}
+.header-text-container {
+  align-self: flex-start;
+}
+.restaurant-list-heading {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  color: #183b56;
+}
+.restaurant-list-para {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  /* or 200% */
+
+  /* Light / blue-gray / 500 */
+
+  color: #64748b;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-list-heading {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+
+    color: #183b56;
+    margin-bottom: 12px;
+  }
+  .restaurant-list-para {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    /* Light / blue-gray / 500 */
+
+    color: #64748b;
+    margin-top: 0px;
+  }
+}
+
+.sort-by-container {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+}
+@media screen and (min-width: 768px) {
+  .sort-by-container {
+    align-self: center;
+  }
+}
+
+.sort-by-icon {
+  font-size: 24px;
+  color: #475569;
+  margin-right: 6px;
+}
+
+.sort-by {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.sort-by-select {
+  color: #475569;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  padding: 12px;
+  outline: none;
+  cursor: pointer;
+}
+
+.select-option {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
